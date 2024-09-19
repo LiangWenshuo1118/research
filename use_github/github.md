@@ -36,3 +36,27 @@ GitHub 是一个非常强大的工具，对于软件开发和代码版本控制�
   git config --global user.name "你的用户名"
   git config --global user.email "你的邮箱"
   ```
+ ### 3. 克隆仓库
+在仓库页面，点击 "Clone or download"，复制 URL。
+在终端运行：
+bash
+
+git clone 你的仓库URL
+ ### 4. 基本 Git 命令
+git status：查看更改状态。
+git add：跟踪文件更改。
+git commit -m "提交信息"：提交更新。
+git push：上传本地仓库内容到远程仓库。
+git pull：更新远程仓库到本地仓库。
+## 第四部分：探索和贡献
+### 1. 探索开源项目
+GitHub Explore：查找和参与开源项目。
+### 2. 贡献到项目
+Fork 和 Clone 项目。
+创建新分支，进行更改。
+提交拉取请求。
+## 第五部分：使用 GitHub 的高级功能
+### 1. GitHub Pages
+托管个人或项目网站。
+### 2. GitHub Actions
+自动化工作流程，如持续集成和持续部署。
