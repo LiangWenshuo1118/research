@@ -5,15 +5,7 @@ GitHub 是一个非常强大的工具，对于软件开发和代码版本控制�
 
 ## 第一部分：了解 GitHub
 
-### 1. GitHub 是什么？
-- **定义和功能**：GitHub 是一个基于 Git 的代码托管平台，用于版本控制和协作，允许多人在任何地方共同工作。
-
-### 2. 基本概念
-- **仓库（Repository）**：项目的存储位置。
-- **分支（Branch）**：项目的不同版本。
-- **提交（Commit）**：保存到仓库的更改。
-- **拉取请求（Pull Request）**：告诉别人你已推送到仓库的分支上的更改。
-- **合并（Merge）**：将更改加入主分支。
+GitHub 是一个基于 Git 的代码托管平台，用于版本控制和协作，允许多人在任何地方共同工作。
 
 ## 第二部分：创建 GitHub 账户和仓库
 
@@ -49,7 +41,6 @@ sudo apt-get install git
   git clone 你的仓库URL
   ```
  ### 4. 基本 Git 命令
-### 4. 基本 Git 命令
 - **git status**：查看更改状态。
 - **git add**：跟踪文件更改。
 - **git commit -m "提交信息"**：提交更新。
@@ -116,7 +107,7 @@ sudo apt-get install git
     ```bash
     git checkout main
     git merge <new-branch-name>
-    git push origin main
+    git push
     ```
 
 通过这些步骤，你可以有效地向任何 GitHub 上的开源项目贡献代码。创建独立的分支可以帮助项目维护者更好地管理合并过程，并且也保持了主分支的整洁和有序。确保你的代码更改是清晰和有目的的，这会增加你的拉取请求被接受的可能性。
