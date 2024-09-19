@@ -49,11 +49,13 @@ sudo apt-get install git
   git clone 你的仓库URL
   ```
  ### 4. 基本 Git 命令
+### 4. 基本 Git 命令
 - **git status**：查看更改状态。
 - **git add**：跟踪文件更改。
 - **git commit -m "提交信息"**：提交更新。
 - **git push**：上传本地仓库内容到远程仓库。
-  - **生成个人访问令牌的步骤**：
+  - 如果使用 HTTPS 连接并且启用了双因素认证，你将需要使用个人访问令牌（PAT）作为密码。
+  - **生成个人访问令牌 (PAT) 的步骤**：
     1. 登录你的 GitHub 账户。
     2. 点击右上角的头像，然后选择 "Settings"（设置）。
     3. 在侧边栏中，找到并点击 "Developer settings"（开发者设置）。
@@ -63,6 +65,18 @@ sudo apt-get install git
     7. 点击页面底部的 "Generate token"（生成令牌）。
     8. **确保复制你的新令牌**。你只能在这个时候看到它一次。使用此令牌作为密码进行认证。
 - **git pull**：更新远程仓库到本地仓库。
+- **git branch**：列出、创建或删除分支。
+  - `git branch`：列出本地所有分支。
+  - `git branch <branch_name>`：创建一个新分支。
+  - `git branch -d <branch_name>`：删除一个分支。
+- **git checkout**：切换分支或恢复工作树文件。
+  - `git checkout <branch_name>`：切换到指定分支。
+  - `git checkout -b <branch_name>`：创建并切换到新分支。
+- **git merge**：将一个分支的更改合并到当前分支。
+  - `git merge <branch_name>`：将指定分支合并到当前分支。合并时可能会出现冲突，需要手动解决这些冲突并提交更改。
+
+这些命令是进行基本 Git 操作和分支管理的基础，非常适合在日常开发工作中使用。通过这些命令，你可以有效地管理不同的功能开发和确保项目的多线并进。
+
 
   
 ## 第四部分：探索和贡献
