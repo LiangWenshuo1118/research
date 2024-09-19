@@ -28,7 +28,13 @@ GitHub 是一个非常强大的工具，对于软件开发和代码版本控制�
 ## 第三部分：Git 基础
 
 ### 1. 安装 Git
-- 下载并安装 Git：[Git 官网](https://git-scm.com/downloads)。
+- 下载并安装 Git：
+
+Linux：
+
+```bash
+sudo apt-get install git
+```
 
 ### 2. 配置 Git
 - 打开终端或命令提示符，配置用户信息：
