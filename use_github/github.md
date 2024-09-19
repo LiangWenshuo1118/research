@@ -49,11 +49,21 @@ sudo apt-get install git
   git clone 你的仓库URL
   ```
  ### 4. 基本 Git 命令
-- git status：查看更改状态。
-- git add：跟踪文件更改。
-- git commit -m "提交信息"：提交更新。
-- git push：上传本地仓库内容到远程仓库。
-- git pull：更新远程仓库到本地仓库。
+- **git status**：查看更改状态。
+- **git add**：跟踪文件更改。
+- **git commit -m "提交信息"**：提交更新。
+- **git push**：上传本地仓库内容到远程仓库。
+  - **生成个人访问令牌的步骤**：
+    1. 登录你的 GitHub 账户。
+    2. 点击右上角的头像，然后选择 "Settings"（设置）。
+    3. 在侧边栏中，找到并点击 "Developer settings"（开发者设置）。
+    4. 在左侧菜单中选择 "Personal access tokens"（个人访问令牌）。
+    5. 点击 "Generate new token"（生成新令牌）。
+    6. 给你的令牌命名，并设置过期时间。然后选择你需要的权限。如果你只需要用于代码仓库的操作，通常选择 `repo` 权限即可。
+    7. 点击页面底部的 "Generate token"（生成令牌）。
+    8. **确保复制你的新令牌**。你只能在这个时候看到它一次。使用此令牌作为密码进行认证。
+- **git pull**：更新远程仓库到本地仓库。
+
   
 ## 第四部分：探索和贡献
 ### 1. 探索开源项目
