@@ -116,6 +116,7 @@ sudo apt-get install git
     ```bash
     git checkout main
     git merge <new-branch-name>
+    git push origin main
     ```
 
 通过这些步骤，你可以有效地向任何 GitHub 上的开源项目贡献代码。创建独立的分支可以帮助项目维护者更好地管理合并过程，并且也保持了主分支的整洁和有序。确保你的代码更改是清晰和有目的的，这会增加你的拉取请求被接受的可能性。
